@@ -40,12 +40,15 @@ p {
 header {
   width: 100%;
   background-color: black;
+  height: 10em;
+  display: block;
 }
 
 header img {
-  width: 100%;
+  width: 60%;
   max-width: 60%;
   height: auto;
+  padding: 2em;
 }
 
 /* ======= MAIN =======*/
