@@ -71,6 +71,7 @@ main {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #courseMainBanner button,
@@ -80,18 +81,37 @@ main {
 }
 
 #pills-block1 {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  height: 700px;
 }
 
-#pills img {
+#pills-inline {
+  padding: 2em;
+}
+
+#pills-inline img,
+#pills-block2 {
   display: inline-block;
-  vertical-align: top;
-  width: 300px;
-  height: auto;
+  vertical-align: center;
+}
+
+#pills-inline img {
+  width: 500px;
   border-radius: 50%;
-  object-fit: cover;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+#pills-inline h2 {
+  font-size: 26px;
+}
+
+#pills-inline p {
+  font-size: 24px;
+}
+
+#pills-block2 {
+  width: 500px;
+  text-align: left;
 }
 
 #ceoGuarantees {
@@ -117,7 +137,7 @@ main {
   border: 1px solid grey;
   border-radius: 10px;
   box-sizing: content-box;
-  margin: 100px auto 100px;
+  margin: 100px 20px 100px;
   display: inline-block;
 }
 
@@ -135,4 +155,38 @@ main {
 .more-pills img {
   width: 100%;
   height: 260px;
+}
+
+/*========= FOOTER ==========*/
+
+footer {
+  background-color: #25a2c3;
+  padding: 2em;
+  font-size: 0.8em;
+}
+
+#contacts {
+  padding-bottom: 1em;
+}
+
+#contacts h1 {
+  color: white;
+  padding: 0.5em;
+}
+
+#contacts p {
+  color: #c8e7f0;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+#copyright {
+  width: 30%;
+  color: #c8e7f0;
+  font-size: 0.7em;
+  padding: 0.5em;
+  margin: 2em auto 2em;
+  border-top: 1px solid #c8e7f0;
 }
