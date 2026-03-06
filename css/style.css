@@ -1,0 +1,190 @@
+/* GENERAL SETTINGS*/
+body {
+  width: 50%;
+  min-width: 320px;
+  margin: auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+}
+
+/* ======= HEADER =======*/
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+header img {
+  width: 100%;
+  max-width: 60%;
+  height: auto;
+}
+
+/* ======= MAIN =======*/
+
+#courseMainBanner {
+  padding: 3em;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#courseMainBanner h1,
+#courseMainBanner p {
+  padding: 1em;
+}
+
+#courseMainBanner button {
+  width: 80%;
+  max-width: 30em;
+  min-height: 8em;
+  padding: 0;
+  color: white;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 0;
+  border: 1px solid #c63117;
+  border-radius: 10px;
+}
+
+#pills {
+  padding-top: 3em;
+}
+
+.pill {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#roundImage {
+  width: 80%;
+  max-width: 30em;
+  height: auto;
+  border-radius: 50%;
+}
+
+header img {
+  width: 100%; /* Fill container */
+  max-width: 60%; /* Optional: cap the size */
+  height: auto;
+}
+
+#ceoGuarantees {
+  width: 100%;
+  height: 40%;
+  padding: 1em 0 1em;
+  background-color: #e22d0e;
+}
+
+#ceoGuarantees h1,
+#ceoGuarantees blockquote {
+  padding: 0.5em;
+  color: white;
+}
+
+#ceoGuarantees h2,
+#ceoGuarantees p {
+  color: white;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+blockquote {
+  font-size: 2em;
+  font-style: italic;
+}
+
+#morePills {
+  margin: 3em auto 3em;
+}
+
+#morePills img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.more-pills {
+  margin: 4em auto 4em;
+  border: 1px solid #dee1e3;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.more-pills h2,
+.more-pills p {
+  padding: 0.5em;
+}
+
+.more-pills h2 {
+  margin-top: 1em;
+}
+
+.more-pills p {
+  margin-bottom: 1em;
+}
+
+/*========= FOOTER ==========*/
+
+footer {
+  background-color: #25a2c3;
+  padding: 2em;
+  font-size: 0.8em;
+}
+
+#contacts {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #c8e7f0;
+}
+
+#contacts h1 {
+  color: white;
+  padding: 0.5em;
+}
+
+#contacts p {
+  color: #c8e7f0;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+#copyright {
+  color: #c8e7f0;
+  font-size: 0.7em;
+  padding: 0.5em;
+  margin: 2em auto 2em;
+}
