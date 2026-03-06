@@ -1,18 +1,12 @@
 /* GENERAL SETTINGS*/
 body {
-  width: 50%;
+  width: 100%;
   min-width: 320px;
-  margin: auto;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #393d41;
   font-size: 1.2rem;
   line-height: 1.65;
-}
-
-main {
-  width: 100%;
-  margin: auto;
 }
 
 h1,
@@ -24,167 +18,121 @@ h2 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /* ======= HEADER =======*/
 
 header {
+  display: block;
   width: 100%;
+  height: 100px;
   background-color: black;
+  text-align: left;
 }
 
 header img {
-  width: 100%;
-  max-width: 60%;
-  height: auto;
-}
-
-/* ======= MAIN =======*/
-
-#courseMainBanner {
-  padding: 3em;
-  background-image: url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#courseMainBanner h1,
-#courseMainBanner p {
+  width: 200px;
   padding: 1em;
 }
 
+/*======= MAIN =========*/
+
+main {
+  text-align: center;
+  margin: auto;
+}
+
+#courseMainBanner {
+  width: 90%;
+  height: 15em;
+  padding: 5em;
+  text-align: center;
+  background-image: url(../images/banner.jpg);
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* don’t repeat */
+  background-size: cover; /* scale to cover container */
+}
+
 #courseMainBanner button {
-  width: 80%;
-  max-width: 30em;
-  min-height: 8em;
-  padding: 0;
-  color: white;
+  width: 150px;
+  height: 50px;
   background-color: #f04c2f;
+  border: 1px solid #a13320;
+  border-radius: 10px;
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  padding: 0;
-  border: 1px solid #c63117;
-  border-radius: 10px;
 }
 
-#pills {
-  padding-top: 3em;
+#courseMainBanner button,
+#courseMainBanner h1,
+#courseMainBanner p {
+  padding: 0.5em;
 }
 
-.pill {
-  margin-top: 3em;
-  margin-bottom: 3em;
+#pills-block1 {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-#roundImage {
-  width: 80%;
-  max-width: 30em;
+#pills img {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
   height: auto;
   border-radius: 50%;
-}
-
-header img {
-  width: 100%; /* Fill container */
-  max-width: 60%; /* Optional: cap the size */
-  height: auto;
+  object-fit: cover;
 }
 
 #ceoGuarantees {
+  box-sizing: border-box;
+  display: block;
   width: 100%;
-  height: 40%;
-  padding: 1em 0 1em;
+  height: 400px;
   background-color: #e22d0e;
+  padding: 2em;
 }
 
 #ceoGuarantees h1,
-#ceoGuarantees blockquote {
-  padding: 0.5em;
-  color: white;
-}
-
+#ceoGuarantees blockquote,
 #ceoGuarantees h2,
 #ceoGuarantees p {
   color: white;
-  font-size: 1.5em;
-  margin: 1em;
-}
-
-blockquote {
-  font-size: 2em;
-  font-style: italic;
-}
-
-#morePills {
-  margin: 3em auto 3em;
-}
-
-#morePills img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  box-sizing: border-box;
+  padding: 0.6em;
 }
 
 .more-pills {
-  margin: 4em auto 4em;
-  border: 1px solid #dee1e3;
+  width: 400px;
+  height: auto;
+  border: 1px solid grey;
   border-radius: 10px;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  margin: 100px auto 100px;
+  display: inline-block;
 }
 
 .more-pills h2,
 .more-pills p {
-  padding: 0.5em;
-}
-
-.more-pills h2 {
-  margin-top: 1em;
+  width: 90%;
+  box-sizing: content-box;
+  padding: 10px;
 }
 
 .more-pills p {
-  margin-bottom: 1em;
+  font-size: 16px;
 }
 
-/*========= FOOTER ==========*/
-
-footer {
-  background-color: #25a2c3;
-  padding: 2em;
-  font-size: 0.8em;
-}
-
-#contacts {
-  padding-bottom: 1em;
-  border-bottom: 1px solid #c8e7f0;
-}
-
-#contacts h1 {
-  color: white;
-  padding: 0.5em;
-}
-
-#contacts p {
-  color: #c8e7f0;
-}
-
-footer a {
-  color: #c8e7f0;
-}
-
-#copyright {
-  color: #c8e7f0;
-  font-size: 0.7em;
-  padding: 0.5em;
-  margin: 2em auto 2em;
+.more-pills img {
+  width: 100%;
+  height: 260px;
 }
